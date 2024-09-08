@@ -9,8 +9,8 @@ public class PeopleTest {
 
     @Test
     public void ShouldCalculateAge() {
-        People helo = new People("Helo", LocalDate.of(2002,1,1));
-        Assertions.assertEquals(22, helo.getAge());
+        People helo = new People("Helo", LocalDate.of(1989,5,29));
+        Assertions.assertEquals(35, helo.getAge());
     }
 
     @Test
